@@ -32,7 +32,7 @@ class Note {
     'title': title,
     'contenct': content,
     'deadline': deadline?.millisecondsSinceEpoch,
-    'createdAt': createdAt?.millisecondsSinceEpoch,
+    'createdAt': createdAt.millisecondsSinceEpoch,
   };
 }
 
